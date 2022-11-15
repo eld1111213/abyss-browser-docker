@@ -1,0 +1,8 @@
+version: "2"
+services:
+  abyss-browser:
+    restart: unless-stopped
+    image: "ghcr.io/natant-network/abyss-browser-docker:main"
+    ports:
+    #IMPORTANT: DO NOT CHANGE THE 8090 PART ONLY CHANGE THE 90 PART
+      - 90:8090
