@@ -6,3 +6,8 @@ services:
     ports:
     #IMPORTANT: DO NOT CHANGE THE 8090 PART ONLY CHANGE THE 90 PART
       - 90:8090
+# network config if youi want a network config feel free to use the one below and change the name to your liking. YOU MUST RUN docker network create <your name> BEFORE RUNNING THE CONTAINER
+#networks:
+#  default:
+#    external:
+#      name: default
